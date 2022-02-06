@@ -11,3 +11,7 @@ module_6/sber*
 module_6/all_auto_ru_09_09_2020.csv
 module_6/test.csv
 module_6/train_df_full.csv
+module_6/df_catboost.csv
+module_6/df_equipment.csv
+module_6/df.csv
+module_6/submission_final_*
