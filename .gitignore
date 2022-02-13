@@ -1,7 +1,6 @@
 venv/
 .vscode/
 .DS_Store
-requirements.txt
 unit_3/netbox_interfaces.csv
 unit_3/netbox.ipynb
 unit_7/data/netflix/*
