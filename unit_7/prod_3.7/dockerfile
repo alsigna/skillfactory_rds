@@ -1,0 +1,4 @@
+FROM mike0sv/sf_docker_base
+
+COPY key.txt /tmp/
+ENV DATA_PATH /tmp/key.txt
