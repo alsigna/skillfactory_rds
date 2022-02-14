@@ -1,0 +1,41 @@
+2022-02-14 08:23:42,500 - metric - INFO - metric was started
+2022-02-14 08:23:42,511 - metric - ERROR - cannot connect to rabbitmq
+2022-02-14 08:23:48,884 - metric - INFO - metric was started
+2022-02-14 08:23:48,891 - metric - ERROR - cannot connect to rabbitmq
+2022-02-14 08:23:55,515 - metric - INFO - metric was started
+2022-02-14 08:23:56,314 - metric - INFO - got y_true. req_id: bf41b032-510c-45e8-9060-621c32446302, msg_id: 29f734b4-8c1b-48f4-962e-a719bb9d2f9a, value: 151.0
+2022-02-14 08:23:56,319 - metric - INFO - got y_pred. req_id: bf41b032-510c-45e8-9060-621c32446302, msg_id: 06f22229-9adb-43c7-ba7d-f0db680282d3, value: 164.49
+2022-02-14 08:23:56,322 - metric - INFO - RMSE calculated. req_id: bf41b032-510c-45e8-9060-621c32446302, rmse: 13.49
+2022-02-14 08:23:58,335 - metric - INFO - got y_true. req_id: 1dcc7879-19fe-4b51-9d90-da4edf94756a, msg_id: 399ccb26-f60c-464f-9423-665f497eebe5, value: 170.0
+2022-02-14 08:23:58,338 - metric - INFO - got y_pred. req_id: 1dcc7879-19fe-4b51-9d90-da4edf94756a, msg_id: 05fac949-e887-400b-bc27-3e98ccf99494, value: 134.58
+2022-02-14 08:23:58,341 - metric - INFO - RMSE calculated. req_id: 1dcc7879-19fe-4b51-9d90-da4edf94756a, rmse: 35.42
+2022-02-14 08:24:00,361 - metric - INFO - got y_true. req_id: 0a09c954-7100-4b80-9c08-329b7c0d4e57, msg_id: b4492511-3b37-4ca8-b5dc-4e399e9d4fc5, value: 111.0
+2022-02-14 08:24:00,371 - metric - INFO - got y_pred. req_id: 0a09c954-7100-4b80-9c08-329b7c0d4e57, msg_id: bb6df056-1b62-4a12-ac78-b77d4caabd78, value: 124.51
+2022-02-14 08:24:00,374 - metric - INFO - RMSE calculated. req_id: 0a09c954-7100-4b80-9c08-329b7c0d4e57, rmse: 13.51
+2022-02-14 08:24:02,389 - metric - INFO - got y_true. req_id: 6a30aa30-a48e-490e-8cff-46c3315a48f4, msg_id: 8c064b42-cb5a-42be-8ec9-8400b8047522, value: 94.0
+2022-02-14 08:24:02,395 - metric - INFO - got y_pred. req_id: 6a30aa30-a48e-490e-8cff-46c3315a48f4, msg_id: 2d54ad4e-cf2d-4ed9-8529-9762f1ce2801, value: 158.35
+2022-02-14 08:24:02,400 - metric - INFO - RMSE calculated. req_id: 6a30aa30-a48e-490e-8cff-46c3315a48f4, rmse: 64.35
+2022-02-14 08:24:04,383 - metric - INFO - got y_true. req_id: 3171fbad-b97c-4c32-956b-134ebabdb308, msg_id: 58090e0d-8442-49ff-8c7e-bb05dc952693, value: 191.0
+2022-02-14 08:24:04,388 - metric - INFO - got y_pred. req_id: 3171fbad-b97c-4c32-956b-134ebabdb308, msg_id: f03e4320-dad3-421c-972e-517f2f08903a, value: 193.32
+2022-02-14 08:24:04,391 - metric - INFO - RMSE calculated. req_id: 3171fbad-b97c-4c32-956b-134ebabdb308, rmse: 2.32
+2022-02-14 08:24:06,417 - metric - INFO - got y_true. req_id: 1146f961-bcd4-4d03-b7f6-2c34d150e001, msg_id: 99d10acd-3aa9-443a-bbde-dccc754bef8c, value: 166.0
+2022-02-14 08:24:06,420 - metric - INFO - got y_pred. req_id: 1146f961-bcd4-4d03-b7f6-2c34d150e001, msg_id: f035bc6d-d4e2-49c3-90e9-4c880c38e605, value: 211.76
+2022-02-14 08:24:06,422 - metric - INFO - RMSE calculated. req_id: 1146f961-bcd4-4d03-b7f6-2c34d150e001, rmse: 45.76
+2022-02-14 08:24:08,450 - metric - INFO - got y_true. req_id: 13a6f6c3-5799-49f3-b173-1a7785c24884, msg_id: eef8d8e2-4650-46da-9d70-1102d3658e6a, value: 113.0
+2022-02-14 08:24:08,453 - metric - INFO - got y_pred. req_id: 13a6f6c3-5799-49f3-b173-1a7785c24884, msg_id: 30b1915f-e0a2-4308-8bee-17df6c85ba74, value: 91.01
+2022-02-14 08:24:08,455 - metric - INFO - RMSE calculated. req_id: 13a6f6c3-5799-49f3-b173-1a7785c24884, rmse: 21.99
+2022-02-14 08:24:10,475 - metric - INFO - got y_true. req_id: 0ebe6b77-a428-409f-be05-7500643e4db7, msg_id: d6450231-4efd-4ebb-8c57-820566b261ae, value: 72.0
+2022-02-14 08:24:10,481 - metric - INFO - got y_pred. req_id: 0ebe6b77-a428-409f-be05-7500643e4db7, msg_id: 55296d17-bcee-4853-bff6-80c3a2cdab3e, value: 110.0
+2022-02-14 08:24:10,484 - metric - INFO - RMSE calculated. req_id: 0ebe6b77-a428-409f-be05-7500643e4db7, rmse: 38.0
+2022-02-14 08:24:12,508 - metric - INFO - got y_true. req_id: fb273c08-134a-43fb-a8fd-792f09226366, msg_id: a97ecf92-4019-43fc-846c-d6801c4a746d, value: 25.0
+2022-02-14 08:24:12,519 - metric - INFO - got y_pred. req_id: fb273c08-134a-43fb-a8fd-792f09226366, msg_id: 6bd1d7e5-2e30-4d12-beec-2dc6342329cc, value: 146.28
+2022-02-14 08:24:12,523 - metric - INFO - RMSE calculated. req_id: fb273c08-134a-43fb-a8fd-792f09226366, rmse: 121.28
+2022-02-14 08:24:14,551 - metric - INFO - got y_true. req_id: d4fa2cc3-db05-4890-a5c5-721d7e0f9f3e, msg_id: 2a1c61d2-c17f-4202-8bf9-0de454d37bdd, value: 200.0
+2022-02-14 08:24:14,555 - metric - INFO - got y_pred. req_id: d4fa2cc3-db05-4890-a5c5-721d7e0f9f3e, msg_id: 72e66788-1ada-4b7c-8057-49a73e6d51e4, value: 77.06
+2022-02-14 08:24:14,558 - metric - INFO - RMSE calculated. req_id: d4fa2cc3-db05-4890-a5c5-721d7e0f9f3e, rmse: 122.94
+2022-02-14 08:24:16,586 - metric - INFO - got y_true. req_id: 3f6864ca-d7b3-4902-8e31-e10d4bd325b3, msg_id: 01cb818d-91ef-4bbe-ae6c-cccfce9734f7, value: 94.0
+2022-02-14 08:24:16,593 - metric - INFO - got y_pred. req_id: 3f6864ca-d7b3-4902-8e31-e10d4bd325b3, msg_id: 20afb4fe-8d2f-4011-aa83-778ed139ef3f, value: 97.8
+2022-02-14 08:24:16,595 - metric - INFO - RMSE calculated. req_id: 3f6864ca-d7b3-4902-8e31-e10d4bd325b3, rmse: 3.8
+2022-02-14 08:24:18,615 - metric - INFO - got y_true. req_id: c0c7f542-81fa-4998-a6ba-a46521f52f14, msg_id: 505981a9-b63e-43ac-a5a7-4628d4ed0e3b, value: 85.0
+2022-02-14 08:24:18,620 - metric - INFO - got y_pred. req_id: c0c7f542-81fa-4998-a6ba-a46521f52f14, msg_id: 9bfb7b9d-f880-45ec-a77f-c85187d06549, value: 152.83
+2022-02-14 08:24:18,622 - metric - INFO - RMSE calculated. req_id: c0c7f542-81fa-4998-a6ba-a46521f52f14, rmse: 67.83
