@@ -1,10 +1,10 @@
 import json
 import logging
-from sys import stdout
 import time
-from sklearn.metrics import mean_squared_error
+from sys import stdout
 
 import pika
+from sklearn.metrics import mean_squared_error
 
 log = logging.getLogger("metric")
 log.setLevel(logging.INFO)

@@ -3,10 +3,12 @@ import logging
 import pickle
 import time
 import uuid
-from sys import stdout
 from datetime import datetime
+from sys import stdout
+
 import pika
 
+# enable loggin to stdout
 log = logging.getLogger("model")
 log.setLevel(logging.INFO)
 formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
@@ -15,7 +17,7 @@ ch.setFormatter(formatter)
 log.addHandler(ch)
 log.info("model was started")
 
-
+# unpickle model
 with open("./prod_2.pkl", "rb") as pkl_file:
     regressor = pickle.load(pkl_file)
 
@@ -29,6 +31,7 @@ try:
     channel.queue_declare(queue="y_pred")
 
     def callback(ch, method, properties, body):
+        """callback function upon receiving message"""
         data = json.loads(body)
         log.info(f"got X: req_id: {properties.correlation_id}, msg_id: {properties.message_id}, body: {data}")
 
