@@ -46,3 +46,4 @@ onnxruntime
 skl2onnx
 protobuf
 pika
+uwsgi
