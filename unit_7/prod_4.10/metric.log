@@ -39,3 +39,7 @@
 2022-02-14 08:24:18,615 - metric - INFO - got y_true. req_id: c0c7f542-81fa-4998-a6ba-a46521f52f14, msg_id: 505981a9-b63e-43ac-a5a7-4628d4ed0e3b, value: 85.0
 2022-02-14 08:24:18,620 - metric - INFO - got y_pred. req_id: c0c7f542-81fa-4998-a6ba-a46521f52f14, msg_id: 9bfb7b9d-f880-45ec-a77f-c85187d06549, value: 152.83
 2022-02-14 08:24:18,622 - metric - INFO - RMSE calculated. req_id: c0c7f542-81fa-4998-a6ba-a46521f52f14, rmse: 67.83
+2022-02-15 21:39:18,077 - metric - INFO - metric was started
+2022-02-15 21:39:18,104 - metric - ERROR - cannot connect to rabbitmq
+2022-02-15 21:39:24,522 - metric - INFO - metric was started
+2022-02-15 21:39:24,530 - metric - ERROR - cannot connect to rabbitmq
