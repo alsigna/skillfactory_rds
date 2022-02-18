@@ -47,3 +47,4 @@ skl2onnx
 protobuf
 pika
 uwsgi
+tensorflow
